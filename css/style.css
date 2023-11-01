@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    
+
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgba(5, 5, 5,);
+    position: fixed;
+    width: 100%;
+  
+}
+
+
+ul{
+    
+    padding-bottom:5px;
+}
+ul li{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    width: 150px;
+    height: 40px;
+    float:left;
+}
+ul li :hover{display: block;}
+ul li a{
+    
+    color:rgb(199, 23, 23);
+    text-decoration: none;
+}
+
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    color:#d4cbca
+}
+.content {
+    text-decoration:none;
+    color:rgb(199, 23, 23);
+    text-transform:uppercase;
+    padding:0px  40px ;
+    font-size:20px;
+}
+#v{
+    width: 100%;
+    height:auto;
+    position:fixed;
+    z-index: -1;
+
+}
+.content:hover{
+    box-shadow:0 0 20px #e2d34c, 0 0 40px #e79c39, 0 0 90px #c4cf23;
+
+    color:rgb(82, 146, 4);
+    padding:15px;
+    border-radius:80px 5px;
+    background-color: rgba(236, 236, 126,.2);
+   
+}
+ li a:hover{
+    color:rgb(82, 146, 4);
+    padding:5px;
+    border-radius:80px 5px;
+    background-color: rgba(236, 236, 126,.2);
+    box-shadow: 0 0 20px #e0cf37, 0 0 40px #e4412c, 0 0 90px #da971b;
+ 
+}
+
+div{
+    width:100vw;
+height:25vh;
+   
+}
+h1{
+    font-size:60px;
+    text-transform:uppercase ;
+    padding:0px 50px ;
+  
+}
+font{
+    font-size:100px;
+}
+p{
+    width:300px ;
+    padding:  0 50px ;
+  
+}
+button{
+    padding:6px 10px;
+    border-radius:100px 30px;
+  
+    font-size: 10px;
+    color:black;
+    cursor: progress;
+    padding-left:20px;
+    margin:10px;
+   margin-left:50px;
+ 
+}
+
+button:hover{
+    padding:6px 10px;
+    border-radius:100px 100px;
+    font-size: 20px;
+    box-shadow: 0 0 20px #96431c, 0 0 40px #e4412c, 0 0 90px #da971b;
+}
+.icon{
+    margin-top:120px;
+    margin-left:20px;
+    
+}
+.icon a:hover{
+    color:rgb(223, 65, 65);
+    box-shadow: 0 0 20px #f3dd5d, 0 0 40px #861c14, 0 0 90px #f1b84e;
+}
+ul a{color:black}
+
